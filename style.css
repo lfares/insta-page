@@ -15,6 +15,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .instagram-wrapper {
@@ -33,7 +34,7 @@ body {
 }
 
 .insta-phone img {
-    height: 50rem;
+    height: 45rem;
 }
 
 .insta-continue {
@@ -53,16 +54,93 @@ body {
     padding: 1.3rem;
     width: 100%;
     border: 1px solid lightgray;
+    margin: 0.7rem;
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    min-height: 15rem;
+    margin-bottom: 5rem;
 }
 
 .white-block img {
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+.white-block input {
     height: 3rem;
+    width: 20rem;
+    margin: 0.2rem;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    color: gray;
+}
+
+.insta-login {
+    background-color: #51b4f7e5;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    width: 20rem;
+    text-align: center;
+    font-weight: 1000;
+    margin: 1rem;
+}
+
+h2 {
+    width: 20rem;
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+h2 span {
+    background:#fff; 
+    color: gray;
+    padding:0 20px;
+}
+
+.face {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .face img {
     height: 1rem;
+    vertical-align:middle;
+    margin-right: 0.5rem;
+}
+
+.face-text {
+    height: 1rem;
+    color: #3b5998;
+    vertical-align:middle;
+    font-weight: 1000;
+}
+
+.password {
+    color: #3b5998;
+    margin: 0;
+    padding: 0;
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.get-app {
+    align-items: center;
+    justify-items: center;
+}
+
+.get-app-text {
+    text-align: center;
+    margin: 1rem;
+}
+
+.get-logos img {
+    height: 3rem;
 }
