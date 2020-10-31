@@ -34,7 +34,8 @@ body {
 }
 
 .insta-phone img {
-    height: 45rem;
+    height: 42rem;
+    margin-right: 5rem;
 }
 
 .insta-continue {
